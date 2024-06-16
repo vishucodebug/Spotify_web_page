@@ -2,6 +2,8 @@
 ## Overview
 This project is a responsive web page that closely resembles the Spotify music player. The design is fully responsive, ensuring a seamless experience across different devices and screen sizes. The goal of this project is to replicate the look and feel of the original Spotify web application.
 
+## Project live link
+https://vishucodebug.github.io/Spotify_web_page/
 ## Features
 Responsive Design:
 The layout adjusts smoothly across various screen sizes, from mobile phones to desktop monitors.
