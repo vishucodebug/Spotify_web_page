@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+     <link rel="icon" href="assest/logo.png">
+    <title>Spotify - webplayer : music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Spotify clone main page -->
+
+    <div class="main">
+        <input type="checkbox" id="check">
+
+         <!-- Sidebar menu -->
+
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <label for="check"><i class="fa-solid fa-house"></i></label>
+                    <a href="#">Home</a>
+                    <label for="check" class="check">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"> Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="assest/library_icon.png" alt="library imgae">
+                        <a href="#"> Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box box2">
+                        <p class="box-p1">Lets fond some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes </p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main content of spotify -->
+
+        <div class="main-content">
+            <!-- Top Sticy Navbar in main content -->
+            <div class="sticky-nav">
+               <div class="sticky-nav-icon ">
+                 <label for="check" class="home-menu"><i class="fa-solid fa-house" ></i></label>
+                 <img src="assest/backward_icon.png" class="hide">
+                 <img src="assest/forward_icon.png" class="hide" alt=" farward">
+               </div>
+               <div class="sticky-nav-option">
+                 <button class="badge sticky-nav-item hide">Explore premium</button>
+                 <button class="badge dark-badge sticky-nav-item"> 
+                    <i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install app
+                 </button>
+                <i class="fa-regular fa-user sticky-nav-item"></i>
+               </div>
+            </div>
+             <!-- Recently played section of main content -->
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assest/card1img.jpeg"  class="card-img" alt="card 1">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card9img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Phir Aur Kya Chahiye...</p>
+                    <p class="card-info">Sachin-jigar, Arijit Singh</p>
+                </div>
+            </div>
+              <!-- Trending now near you section of main content -->
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assest/card2img.jpeg"  class="card-img" alt="card 1">
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Darshan Ravel</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card7img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Yaar ka Sataya Huaa hai</p>
+                    <p class="card-info">B Parak, Jani</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card8img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Naseeb Se (From "Satya.."</p>
+                    <p class="card-info">Payal Dev, Vishal Mishra, A.M. Turaz</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card3img.jpeg"  class="card-img" alt="card 1">
+                    <p class="card-title">Mere Pass Tum Ho...</p>
+                    <p class="card-info">Rahat Fateh Ali Khan</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card4img.jpeg"  class="card-img" alt="card 1">
+                    <p class="card-title">Na Ready(From "Leo"</p>
+                    <p class="card-info">Anirudh Ravichandar , Thalapati Vijay , Aslm..</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card9img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Phir Aur Kya Chahiye...</p>
+                    <p class="card-info">Sachin-jigar, Arijit Singh</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card10img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Kaavaalaa(From "Jailer"</p>
+                    <p class="card-info">Anirudh Ravichandar , Shilpa Rao , Anuraja kamaraj..</p>
+                </div>
+            </div>
+             <!-- Popular radio section of main content -->
+            <h2>Popular radio</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assest/card16img"  class="card-img" alt="card 1">
+                    <p class="card-title">Arijit Singh Radio</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card17img"  class="card-img" alt="card 1">
+                    <p class="card-title">Atif Aslam Radio</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card18img"  class="card-img" alt="card 1">
+                    <p class="card-title">K.K. Radio</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card19img"  class="card-img" alt="card 1">
+                    <p class="card-title">Rahat Fateh Ali Khan</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+            </div>
+              <!-- Featured Charts section of main content -->
+            <h2>Featured  Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assest/card5img.jpeg"  class="card-img" alt="card 1">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card6img.jpeg"  class="card-img" alt="card 1">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card1img.jpeg"  class="card-img" alt="card 1">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card11img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+               <!-- Sounds of India section of main content -->
+            <h2>Sounds of India</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assest/card12img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">The song that define unit and distinguish...</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card13img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">The song that define unit and distinguish...</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card14img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">The song that define unit and distinguish...</p>
+                </div>
+                <div class="card">
+                    <img src="assest/card15img.jpg"  class="card-img" alt="card 1">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">The song that define unit and distinguish...</p>
+                </div>
+            </div>
+
+            <!-- footer section here -->
+            <div class="footer">
+                <div class="footer-item">
+                    <div class="footer-company">
+                        <h2 class="footer-heading">Company</h2>
+                            <li class="footer-li">About</li>
+                            <li class="footer-li">Jobs</li>
+                            <li class="footer-li">For the Record</li>
+                    </div>
+                    <div class="footer-commun">
+                        <h2 class="footer-heading">  Communities  </h2>
+                           
+                            <li class="footer-li"> Developers</li>
+                            <li class="footer-li">Advertising</li>
+                            <li class="footer-li">Investors</li>
+                            <li class="footer-li">Vendors</li>
+                            <li class="footer-li">Spotify for Work</li>
+                    </div>
+                    <div class="footer-links">
+                        <h2 class="footer-heading">Useful links </h2>
+                            <li class="footer-li"> Support</li>
+                            <li class="footer-li">  Free Mobile App</li>
+                    </div>
+                    <div class="socal-links">
+                        <div class="social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="social-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="line">
+                        <div class="copyright">
+                            <p>&copy; 2023 Spotify AB</p> 
+                            Developed By : @Vishal_maurya
+                        </div>
+                    </div>
+                </div>
+               
+            
+            </div>
+        </div>
+             <!-- music player -->
+        <div class="music-player">
+            <div class="album">
+                <div class="album-picture">
+                     <img src="assest/album_picture.jpeg" class="album-pic" alt="picture">
+                </div>
+                <div class="album-player">
+                    <div class="song-player">
+                        <div class="song-name">Daylight </div>
+                        <div class="song-artist"> David Kushner</div>
+                    </div>
+                    <div class="album-icon">
+                        <img src="assest/player_icon2.png" alt="icon1"  class="album-icon-icon hide-icon">
+                        <img src="assest/player_icon3.png" alt="icon1" class="album-icon-icon hide-icon" style="opacity: 1; height: 1.5rem; width: 1.5rem;">
+                        <img src="assest/player_icon4.png" alt="icon1" class="album-icon-icon hide-icon">
+                        <img src="assest/album_icon1.png" class="album-icon-icon extra">
+                        <img src="assest/album_icon2.png" class="album-icon-icon extra">
+                    </div>
+                </div>
+            </div>
+            <!-- footer player section -->
+            <div class="player">
+                <div class="player-control">
+                    <img src="assest/player_icon1.png" alt="icon1" class="player-icon">
+                    <img src="assest/player_icon2.png" alt="icon1" class="player-icon">
+                    <img src="assest/player_icon3.png" alt="icon1" class="player-icon" style="opacity: 1; height: 2rem; width: 2rem;">
+                    <img src="assest/player_icon4.png" alt="icon1" class="player-icon">
+                    <img src="assest/player_icon5.png" alt="icon1" class="player-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">03:33</span>
+                </div>
+            </div>
+            <!-- footer control section -->
+            <div class="control">
+                <img src="assest/controls_icon1.png" class="control-icon">
+                <img src="assest/controld_icon2.png" class="control-icon">
+                <img src="assest/controls_icon3.png" class="control-icon control-icon-bg">
+                <img src="assest/controls_icon4.png" class="control-icon control-icon-bg">
+                <img src="assest/controls_icon5.png" class="control-icon">
+                <input type="range" min="0" max="100" class="control-range">
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
